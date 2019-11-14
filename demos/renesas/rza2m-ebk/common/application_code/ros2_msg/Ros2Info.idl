@@ -1,0 +1,19 @@
+struct MultiArrayDimension
+{
+	string label;
+	unsigned long size;
+	unsigned long stride;
+};
+
+struct MultiArrayLayout
+{
+	sequence<MultiArrayDimension,1> dim;
+	unsigned long data_offset;
+};
+
+struct Ros2Info
+{
+	MultiArrayLayout layout;
+	sequence<double> info;
+};
+

@@ -1,0 +1,4 @@
+rza2m_ethernet_sample.elf: ../generate/linker_script.ld
+
+
+# vim:noexpandtab:
